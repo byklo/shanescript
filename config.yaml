@@ -1,0 +1,16 @@
+---
+# mode can by 'copy' or 'move'
+mode: copy
+# will search for any file whose name contains ANY of the following search terms
+searchTerms:
+	- enter
+	- search
+	- terms
+	- like
+	- this
+# searches only in these search locations
+searchLocations:
+	- /this/is/a/test/directory
+	- /this/is/another/test/directory
+# moves or copies the found files to this location
+destinationDirectory: /where/do/you/want/to/consolidate/your/files/to
